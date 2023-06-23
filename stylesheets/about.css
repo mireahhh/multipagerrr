@@ -1,0 +1,159 @@
+/* анимация летающих объектов */
+.bubble1, .bubble2, .bubble3, .allbubble4, .image5, .image6, .image7, .image8, .icon1, .icon2, .icon3, .icon4, .icon5 {animation: fly1 4s infinite ease-in-out;}
+.image1, .image2, .image3, .image4 {animation: fly2 9s infinite ease-in-out;}
+
+
+
+/* позиции для поясняющего экрана */
+.mainscreen {
+  position: relative;
+  width: 100vw;
+  height: 421.13vw;
+}
+.block {
+  width: 100vw;
+  height: 52.78vw;
+  left: calc(50% - 100vw/2);
+  top: 56.57vw;
+  background: #000000;
+}
+.bubble1 {
+  width: 69.2vw;
+  height: 11.57vw;
+  left: 15.60vw;
+  top: 24.92vw;
+  background-image: url('../images/bubble1.svg');
+}
+.bubble2 {
+  width: 59.99vw;
+  height: 10.74vw;
+  left: 20.52vw;
+  top: 132.15vw;
+  background-image: url('../images/bubble2.svg');
+}
+.bubble3 {
+  width: 56.49vw;
+  height: 13.9446vw;
+  left: 21.94vw;
+  top: 217.46vw;
+  background-image: url('../images/bubble3.svg');
+}
+.bubble4 {
+  width: 69.99vw;
+  height: 24.5vw;
+  left: calc(50% - 69.84vw/2);
+  top: 385.85vw;
+  background-image: url('../images/bubble4.svg');
+}
+.video {
+  width: 100vw;
+  height: 52.78vw;
+  left: calc(50% - 100vw/2);
+  top: 56.57vw;
+}
+.image1 {
+  width: 35.24vw;
+  height: 24.84vw;
+  left: -0.12vw;
+  top: 127.02vw;
+  background-image: url('../images/image1.png');
+}
+.image2 {
+  width: 27.62vw;
+  height: 19.64vw;
+  left: calc(50% - 27.62vw/2 + 36.21vw);
+  top: 155.89vw;
+  background-image: url('../images/image2.png');
+}
+.image3 {
+  width: 31.81vw;
+  height: 19.64vw;
+  left: 44.07vw;
+  top: 185.60vw;
+  background-image: url('../images/image3.png');
+}
+.image4 {
+  width: 100vw;
+  height: 70.56vw;
+  left: calc(50% - 100vw/2);
+  top: 284.40vw;
+  background-image: url('../images/image4.png');
+}
+.image5 {
+  width: 36.37vw;
+  height: 12.62vw;
+  left: 33.79vw;
+  top: 279.52vw;
+  background-image: url('../images/image5.png');
+}
+.image6 {
+  width: 36.37vw;
+  height: 12.62vw;
+  left: 58.35vw;
+  top: 296.98vw;
+  background-image: url('../images/image6.png');
+}
+.image7 {
+  width: 36.37vw;
+  height: 12.62vw;
+  left: 4.84vw;
+  top: 330.52vw;
+  background-image: url('../images/image7.png');
+}
+.image8 {
+  width: 36.37vw;
+  height: 12.62vw;
+  left: 30vw;
+  top: 347.98vw;
+  background-image: url('../images/image8.png');
+}
+.icon1 {
+  width: 10.28vw;
+  height: 18.91vw;
+  left: 5.32vw;
+  top: 159.76vw;
+  background-image: url('../images/icon1.svg');
+}
+.icon2 {
+  width: 16.3vw;
+  height: 14.11vw;
+  left: 19.88vw;
+  top: 180.52vw;
+  background-image: url('../images/icon2.svg');
+}
+.icon3 {
+  width: 13.15vw;
+  height: 18.91vw;
+  left: 80.97vw;
+  top: 185.60vw;
+  background-image: url('../images/icon3.svg');
+}
+.icon4 {
+  width: 13.48vw;
+  height: 18.91vw;
+  left: 4.19vw;
+  top: 231.65vw;
+  background-image: url('../images/icon4.svg');
+}
+.icon5 {
+  width: 13.19vw;
+  height: 19.31vw;
+  left: 78.39vw;
+  top: 247.06vw;
+  background-image: url('../images/icon5.svg');
+}
+.threestars {
+  position: absolute;
+  width: 3vw;
+  height: 5.19vw;
+  left: 93.5vw;
+  top: 412.98vw;
+  background-image: url('../images/threestars.svg');
+  cursor: url('../images/cursor.svg'), pointer;
+}
+#option {
+  width: 40.32vw;
+  height: 3.39vw;
+  left: calc(50% - 40.32vw/2 + 0.28vw);
+  top: 405.6vw;
+}

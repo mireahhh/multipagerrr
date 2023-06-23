@@ -1,0 +1,118 @@
+/* анимация летающих объектов */
+.bubble5, .bubble6, .bubble7, .allbubble8, .poster1, .poster6, .poster9 {animation: fly1 4s infinite ease-in-out;}
+.poster2, .poster3, .poster4, .poster5, .poster7, .poster8 {animation: fly2 9s infinite ease-in-out;}
+
+
+
+/* позиции для предложений */
+.mainscreen {
+  position: relative;
+  width: 100vw;
+  height: 319.07vw;
+}
+.poster1 {
+  width: 23.55vw;
+  height: 35.16vw;
+  left: 48.02vw;
+  top: 23.19vw;
+  background-image: url('../images/poster1.png');
+}
+.poster2 {
+  width: 23.55vw;
+  height: 35.16vw;
+  left: 5.20vw;
+  top: 37.94vw;
+  background-image: url('../images/poster2.png');
+}
+.poster3 {
+  width: 23.55vw;
+  height: 35.16vw;
+  right: 0vw;
+  top: 65vw;
+  background-image: url('../images/poster3.png');
+}
+.poster4 {
+  width: 23.55vw;
+  height: 35.16vw;
+  left: 0vw;
+  top: 102.22vw;
+  background-image: url('../images/poster4.png');
+}
+.poster5 {
+  width: 23.55vw;
+  height: 35.16vw;
+  left: 61.13vw;
+  top: 119.60vw;
+  background-image: url('../images/poster5.png');
+}
+.poster6 {
+  width: 23.55vw;
+  height: 35.16vw;
+  left: 32.74vw;
+  top: 145.12vw;
+  background-image: url('../images/poster6.png');
+}
+.poster7 {
+  width: 23.55vw;
+  height: 35.16vw;
+  right: 0vw;
+  top: 180.77vw;
+  background-image: url('../images/poster7.png');
+}
+.poster8 {
+  width: 23.55vw;
+  height: 35.16vw;
+  left: 10.60vw;
+  top: 204.52vw;
+  background-image: url('../images/poster8.png');
+}
+.poster9 {
+  width: 23.55vw;
+  height: 35.16vw;
+  left: 39.60vw;
+  top: 222.70vw;
+  background-image: url('../images/poster9.png');
+}
+.bubble5 {
+  width: 62.66vw;
+  height: 28.25vw;
+  left: calc(50% - 62.66vw/2);
+  top: 57.02vw;
+  background-image: url('../images/bubble5.svg');
+}
+.bubble6 {
+  width: 60.69vw;
+  height: 17.08vw;
+  left: calc(50% - 60.69vw/2 + 0.02vw);
+  top: 141.57vw;
+  background-image: url('../images/bubble6.svg');
+}
+.bubble7 {
+  width: 64.13vw;
+  height: 11.57vw;
+  left: 18.52vw;
+  top: 221.41vw;
+  background-image: url('../images/bubble7.svg');
+}
+.bubble8 {
+  width: 64.86vw;
+  height: 24.49vw;
+  left: calc(50% - 64.76vw/2);
+  top: 278.79vw;
+  background-image: url('../images/bubble8.svg');
+}
+.threestars {
+  position: absolute;
+  width: 3vw;
+  height: 5.19vw;
+  left: 93.5vw;
+  top: 311.01vw;
+  background-image: url('../images/threestars.svg');
+  cursor: url('../images/cursor.svg'), pointer;
+}
+#option {
+  height: 3.39vw;
+  width: 40.32vw;
+  left: 29.84vw;
+  top: 298.47vw;
+}

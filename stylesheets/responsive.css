@@ -1,0 +1,79 @@
+/* перевертыш для главного экрана */
+@media only screen and (orientation: portrait) {
+  .mustrotate {display: block;}
+  .mainscreen1 {display: none;}
+}
+@media only screen and (orientation: landscape) {.mustrotate {display: none;}}
+
+
+/* средний экран */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .moving, .bubble1, .bubble2, .bubble3, .bubble4, .bubble5, .bubble6, .bubble7, .bubble8, .bubble9, .bubble10, .bubble11, .bubble12 {transform: scale(1.2);}
+  .bubble13, .bubble14, .bubble15, .bubble16 {transform: scale(1.1);}
+  .stars, .blurstars, .sprinkles {height: 100vh;}
+  .bronoff {transform: scale(1.1);}
+  #naming {top: 2.75vw;}
+  .alloptions {transform: translateY(-1vw) scale(1.05);}
+  .onestar {
+    width: 10.15vw;
+    height: 5.6vw;
+    left: 87.2vw;
+    top: 2.35vw;
+  }
+  .fivestars {
+    width: 9.34vw;
+    height: 5.6vw;
+    left: 2.7vw;
+  }
+  .threestars {
+    width: 4.3vw;
+    height: 7.2vw;
+    left: 92.8vw;
+    transform: translateY(-7vw);
+  }
+}
+
+
+/* мини-экран */
+@media (min-width: 415px) and (max-width: 767px) {
+  .moving, .bubble1, .bubble2, .bubble3, .bubble4, .bubble5, .bubble6, .bubble7, .bubble8, .bubble9, .bubble10, .bubble11, .bubble12 {transform: scale(1.1);}
+  .bubble13, .bubble14, .bubble15, .bubble16 {transform: scale(1.05);}
+  .stars, .blurstars, .sprinkles {height: 100vh;}
+  .bronoff {transform: scale(1.05);}
+  #naming {top: 2.75vw;}
+  #option {font-size: 2.5vw;
+    transform: translateY(0.7vw);}
+  .options {
+    height: 41.3vw;
+    width: 35.35vw;
+  }
+  .bubble1 {width: 69.5vw;}
+  .bubble2 {width: 60.1vw;}
+  .bubble17 {
+    width: 38vw;
+    height: 9.81vw;
+    top: 208.55vw;
+  }
+  .bubble9 {
+    width: 54.27vw;
+    height: 11.57vw;
+  }
+  .alloptions {transform: translateY(-1vw) scale(1.05);}
+  .onestar {
+    width: 10.15vw;
+    height: 5.6vw;
+    left: 87.2vw;
+    top: 2.35vw;
+  }
+  .fivestars {
+    width: 9.34vw;
+    height: 5.6vw;
+    left: 2.7vw;
+  }
+  .threestars {
+    width: 4.3vw;
+    height: 7.2vw;
+    left: 92.8vw;
+    transform: translateY(-7vw);
+  }
+}

@@ -1,0 +1,70 @@
+/* анимация летающих объектов */
+.bubble9, .bubble10, .bubble11, .bubble12 {animation: fly1 4s infinite ease-in-out;}
+.formenu1, .formenu2, .formenu3 {animation: fly2 9s infinite ease-in-out;}
+
+
+
+/* позиции для магазина */
+.mainscreen {
+  position: relative;
+  width: 100vw;
+  height: 287.70vw;
+}
+.formenu1 {
+  width: 51.83vw;
+  height: 65.32vw;
+  left: 41.09vw;
+  top: 45.60vw;
+  background-image: url('../images/formenu1.png');
+}
+.formenu2 {
+  width: 55.99vw;
+  height: 66.49vw;
+  left: 7.54vw;
+  top: 132.66vw;
+  background-image: url('../images/formenu2.png');
+}
+.formenu3 {
+  width: 50.65vw;
+  height: 68.47vw;
+  left: 45.65vw;
+  top: 208.55vw;
+  background-image: url('../images/formenu3.png');
+}
+.bubble9 {
+  width: 54vw;
+  height: 11.57vw;
+  left: 23.1vw;
+  top: 24.92vw;
+  background-image: url('../images/bubble9.svg');
+}
+.bubble10 {
+  width: 45.65vw;
+  height: 25.95vw;
+  left: calc(50% - 136.65vw/2 + 26.01vw);
+  top: 96.33vw;
+  background-image: url('../images/bubble10.svg');
+}
+.bubble11 {
+  width: 45.65vw;
+  height: 25.95vw;
+  left: calc(50% - 138.65vw/2 + 65.44vw);
+  top: 175.9vw;
+  background-image: url('../images/bubble11.svg');
+}
+.bubble12 {
+  width: 52vw;
+  height: 28.44vw;
+  left: calc(50% - 153.94vw/2 + 35.44vw);
+  top: 250.02vw;
+  background-image: url('../images/bubble12.svg');
+}
+.threestars {
+  position: absolute;
+  width: 3vw;
+  height: 5.19vw;
+  left: 93.5vw;;
+  top: 279.78vw;
+  background-image: url('../images/threestars.svg');
+  cursor: url('../images/cursor.svg'), pointer;
+}

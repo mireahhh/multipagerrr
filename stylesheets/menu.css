@@ -1,0 +1,92 @@
+/* анимация летающих объектов */
+.bubble13, .bubble14, .bubble15, .bubble16, .allbubble17, .burger {animation: fly1 4s infinite ease-in-out;}
+.hotdog, .planets, .drink {animation: fly2 9s infinite ease-in-out;}
+
+
+
+/* позиции для меню */
+.mainscreen {
+  position: relative;
+  width: 100vw;
+  height: 237.10vw;
+}
+.burger {
+  height: 29.47vw;
+  width: 29.97vw;
+  left: 63.15vw;
+  top: 25vw;
+  background-image: url('../images/burger.png');
+}
+.hotdog {
+  height: 26.53vw;
+  width: 27.02vw;
+  left: 7.63vw;
+  top: 64.79vw;
+  background-image: url('../images/hotdog.png');
+}
+.planets {
+  height: 73.7vw;
+  width: 50.93vw;
+  left: 52.65vw;
+  top: 67.79vw;
+  background-image: url('../images/planets.png');
+}
+.drink {
+  height: 47.62vw;
+  width: 33.31vw;
+  left: 4.25vw;
+  top: 137.8vw;
+  background-image: url('../images/drink.png');
+}
+.bubble13 {
+  height: 28.1vw;
+  width: 60.97vw;
+  left: -1.25vw;
+  top: 24.92vw;
+  background-image: url('../images/bubble13.svg');
+}
+.bubble14 {
+  height: 26.12vw;
+  width: 60.97vw;
+  left: 36.41vw;
+  top: 67.19vw;
+  background-image: url('../images/bubble14.svg');
+}
+.bubble15 {
+  height: 24.75vw;
+  width: 63.39vw;
+  left: 4.31vw;
+  top: 108.75vw;
+  background-image: url('../images/bubble15.svg');
+}
+.bubble16 {
+  height: 26.47vw;
+  width: 57.18vw;
+  left: 41.41vw;
+  top: 151.18vw;
+  background-image: url('../images/bubble16.svg');
+}
+.bubble17 {
+  height: 9.76vw;
+  width: 37.9vw;
+  left: 30.95vw;
+  top: 207.75vw;
+  background-image: url('../images/bubble17.svg');
+}
+.threestars {
+  position: absolute;
+  width: 3vw;
+  height: 5.19vw;
+  left: 93.5vw;
+  top: 228.31vw;
+  background-image: url('../images/threestars.svg');
+  cursor: url('../images/cursor.svg'), pointer;
+}
+#option {
+  position: absolute;
+  line-height: 4.17vw;
+  width: 62.32vw;
+  height: 6.73vw;
+  left: calc(50% - 61.32vw/2 - 0.73vw);
+  top: 208.46vw;
+}

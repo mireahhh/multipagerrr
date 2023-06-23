@@ -1,0 +1,143 @@
+/* прогресс бар */
+progress {
+  position: absolute;
+  top: 47.5vw;
+  left: 4.7vw;
+  width: 90vw;
+  height: 3.5vw;
+  border-radius: 1.77vw;
+  border: 0.14vw solid #FFFFFF;
+}
+progress::-webkit-progress-bar {
+  border-radius: 1.77vw;
+  background-color: black;
+}
+progress::-webkit-progress-value {
+  border-radius: 1.77vw;
+  background-color: white;
+}
+progress::-moz-progress-bar {
+  border-radius: 1.77vw;
+  background-color: white;
+}
+
+
+
+/* окно-перевертыш */
+.mustrotate {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.smallsprinkles {
+  height: 100vh;
+  width: 149vw;
+  background-image: url('../images/sprinkles.png');
+  filter: blur(1px);
+}
+.spinner {
+  width: 34.9vw;
+  height: 33.2vw;
+  left: 33.1vw;
+  top: 39%;
+  animation: spinner 3s infinite;
+  background-image: url('../images/spinner.svg');
+}
+@keyframes spinner {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+
+
+/* позиции для главного экрана */
+.mainscreen1 {
+  position: relative;
+  width: 100vw;
+  height: 56.25vw;
+}
+.sprinkles {
+  height: 100vw;
+  width: 149vw;
+  background-image: url('../images/sprinkles.png');
+  filter: blur(1px);
+}
+.border {
+  position: absolute;
+  width: 96vw;
+  height: 52.5vw;
+  left: calc(50% - 96.5vw/2);
+  top: calc(50% - 53vw/2);
+  border: 0.14vw solid #FFFFFF;
+  border-radius: 1.72vw;
+}
+.blurstars {
+  height: 100vw;
+  width: 149vw;
+  background-image: url('../images/blurstars.png');
+  filter: blur(2px);
+}
+.moving {
+  position: absolute;
+  left: 30vw;
+  top: 10vw;
+}
+.prereserve {animation: fly 2.1s infinite ease-in-out;}
+.premenu, .preshop {animation: fly 2.2s infinite ease-in-out;}
+.preabout, .presuggestions {animation: fly 2.3s infinite ease-in-out;}
+@keyframes fly {
+  0% {transform: translateY(0vw);}
+  50% {transform: translateY(-1vw);}
+  100% {transform: translateY(0vw);}
+}
+.premenu {
+  height: 49.34vw;
+  width: 40.41vw;
+  left: -23.6vw;
+  top: 4.61vw;
+  background-image: url('../images/premenu.png');
+  cursor: url('../images/cursor.svg'), auto;
+}
+.prereserve {
+  height: 25.98vw;
+  width: 27.97vw;
+  left: 28.31vw;
+  top: 13.45vw;
+  background-image: url('../images/prereserve.png');
+  cursor: url('../images/cursor.svg'), auto;
+}
+.preabout {
+  height: 20.04vw;
+  width: 57.46vw;
+  left: 13.22vw;
+  top: 52.29vw;
+  background-image: url('../images/preabout.png');
+  cursor: url('../images/cursor.svg'), auto;
+}
+.preshop {
+  height: 44.7vw;
+  width: 37.7vw;
+  left: 68.7vw;
+  top: -4.42vw;
+  background-image: url('../images/preshop.png');
+  cursor: url('../images/cursor.svg'), auto;
+}
+.presuggestions {
+  height: 25.04vw;
+  width: 26.72vw;
+  left: 85.27vw;
+  top: 44.87vw;
+  background-image: url('../images/presuggestions.png');
+  cursor: url('../images/cursor.svg'), auto;
+}
+.color {
+  transition: 0.7s ease-in-out;
+  filter: grayscale(99%) blur(8px);
+  scale: 1;
+}
+.color:hover {
+  transition: 0.7s ease-in-out;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%) blur(0px);
+  scale: 1.1;
+}
